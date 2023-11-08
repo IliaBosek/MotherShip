@@ -41,7 +41,7 @@ public class SystemInfo extends Application {
 		
 		ImageView imageView = new ImageView(image);
 		imageView.setLayoutX(202);
-		 imageView.setLayoutY(500);
+		imageView.setLayoutY(500);
 
 		Button loader = new Button("Loading");
 		loader.setOnAction(event -> Loading(primaryStage));
